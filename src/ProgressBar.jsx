@@ -4,7 +4,9 @@ function ProgressBar({ step }) {
   const width = (step / 3) * 100; // 3 steps total
   return (
     <div className="progress-container">
-      <div className="progress-bar" style={{ width: `${width}%` }}></div>
+      <div className="progress-bar" style={{ width: `${width}%` }}>
+        <h2>welcome to git</h2>
+      </div>
     </div>
   );
 }
